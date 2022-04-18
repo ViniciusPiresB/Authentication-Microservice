@@ -1,0 +1,13 @@
+def soma() -> int:
+    return 1 + 1
+
+def sub() -> int:
+    return 1 - 1
+
+funcs: dict = {
+    "1": soma(),
+    "2": sub()
+}
+
+
+print(funcs["2"])
